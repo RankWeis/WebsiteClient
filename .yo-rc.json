@@ -1,0 +1,16 @@
+{
+  "generator-bbb": {
+    "name": "WebsiteClient",
+    "testFramework": "mocha",
+    "moduleStyle": "amd",
+    "indent": {
+      "style": "tab",
+      "size": 1
+    },
+    "paths": {
+      "base": ".",
+      "tests": "test",
+      "modules": "app/modules"
+    }
+  }
+}
