@@ -1,0 +1,15 @@
+<div class="get-posts"/>
+	<span class="go-reddit">
+		<button id="getPosts" class="go-reddit-btn">Search</button>
+	</span>
+</div>
+
+<hr>
+
+<div>
+	<% if (posts.isRequest) { %>
+		<img src="/app/img/spinner-gray.gif">
+	<% } else { %>
+		<ul class="post-list list-inline"></ul>
+	<% } %>
+</div>

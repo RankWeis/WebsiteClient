@@ -10,10 +10,18 @@ require.config({
 
 		// Opt for Lo-Dash Underscore compatibility build over Underscore.
 		"underscore": "../vendor/bower/lodash/dist/lodash.underscore",
+	    // Map `lodash` to a valid location for the template loader plugin.
+	    "lodash": "../vendor/bower/lodash/dist/lodash",
+	    "crossdomain": "../vendor/bower/backbone.crossdomain/Backbone.Crossdomain",
 
+	    // Use the Lo-Dash template loader.
+	    "ldsh": "../vendor/bower/lodash-template-loader/loader",
 		// Map remaining vendor dependencies.
 		"jquery": "../vendor/bower/jquery/jquery",
-		"backbone": "../vendor/bower/backbone/backbone"
+		"backbone": "../vendor/bower/backbone/backbone",
+		"bootstrap": "../vendor/bower/bootstrap/dist/js/bootstrap",
+    	"layoutmanager": "../vendor/bower/layoutmanager/backbone.layoutmanager",
+    	"collectionCache": "../vendor/backbone.collectioncache"
 	},
 
 	shim: {
@@ -25,6 +33,10 @@ require.config({
 
 			// This maps the global `Backbone` object to `require("backbone")`.
 			exports: "Backbone"
-		}
+		},
+
+		"collectionCache": ["backbone"],
+
+		"bootstrap": ["jquery"]
 	}
 });
