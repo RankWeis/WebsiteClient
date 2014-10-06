@@ -1,0 +1,29 @@
+{
+  "name": "backbone.crossdomain",
+  "version": "0.4.0",
+  "main": "Backbone.CrossDomain.js",
+  "ignore": [
+    "node_modules"
+  ],
+  "description": "Backbone.CrossDoman - A model extension for Backbone.js with a Sync that works with IE 7-9 using its XDomainRequest",
+  "homepage": "https://github.com/victorquinn/Backbone.CrossDomain",
+  "keywords": [
+    "backbone",
+    "cors",
+    "ie",
+    "crossdomain"
+  ],
+  "author": {
+    "name": "Victor Quinn",
+    "web": "http://victorquinn.com"
+  },
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.0",
+    "commit": "dc23e6de11c397afc7fc682ef9d616299d466e4d"
+  },
+  "_source": "git://github.com/victorquinn/Backbone.CrossDomain.git",
+  "_target": "0.4.0",
+  "_originalSource": "backbone.crossdomain"
+}
